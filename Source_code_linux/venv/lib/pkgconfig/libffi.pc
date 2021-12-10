@@ -1,0 +1,11 @@
+prefix=/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.3
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}
