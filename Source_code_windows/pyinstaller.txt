@@ -1,0 +1,1 @@
+pyinstaller --onedir --noconsole --icon=./resources/images/Icon.ico FTS-Filling_Time_Series.py
