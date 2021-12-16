@@ -13,7 +13,7 @@
 # and add symbolic links to their hash values.
 
 my $dir = "C:\\Program Files\\Common Files\\ssl";
-my $prefix = "C:/Users/Rolando/Workspace/CIGEFI_asist/FTS-Filling_Time_Series_v_0_9_2/Source_code_windows/venv\\Library";
+my $prefix = "C:/Users/Rolando/Workspace/CIGEFI_asist/FillingTimeSeriesGUI/Source_code_windows/venv\\Library";
 
 my $errorcount = 0;
 my $openssl = $ENV{OPENSSL} || "openssl";
