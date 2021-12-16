@@ -1,5 +1,5 @@
-==> 2021-12-01 22:43:31 <==
-# cmd: C:\Users\Rolando\anaconda3\Scripts\conda-script.py create --prefix ./venv python==3.8.8 --no-default-packages
+==> 2021-12-16 16:41:33 <==
+# cmd: C:\Users\Rolando\anaconda3\Scripts\conda-script.py create --prefix=./venv python==3.8.8 --no-default-packages
 # conda version: 4.10.3
 +defaults/noarch::wheel-0.37.0-pyhd3eb1b0_1
 +defaults/win-64::ca-certificates-2021.10.26-haa95532_2

@@ -159,7 +159,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "C:\\\\ci\\\\openssl_1630592237340\\\\_h_env",
         "sha256": "98de7da5fe269c279965807d637b6a0fbf378b75da475244f29193ee563862d1",
-        "sha256_in_prefix": "1a648da6f70f55d69518c9da83ed339f9eaa45d660f736c372c1697d9df5147d",
+        "sha256_in_prefix": "fcf3ba8385a4e67f21012afecb8aeafadde8459a89438024eabedd3ef8faee63",
         "size_in_bytes": 6528
       },
       {
@@ -1027,7 +1027,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "C:\\ci\\openssl_1630592237340\\_h_env",
         "sha256": "c8f4f61cd0aa22837d229cf9b940decee4f74cbe08691f6717c01b2b8c285251",
-        "sha256_in_prefix": "c90f7679f191a272b01fef8192307aa2461d64d755a165c13eaa79491260d3fa",
+        "sha256_in_prefix": "57658a1055ac5c6a77e985ccaf23351fcface16a128f9e4580286153814314da",
         "size_in_bytes": 7851
       },
       {
@@ -1036,7 +1036,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "C:\\ci\\openssl_1630592237340\\_h_env",
         "sha256": "ba9893636b29d23cd9b30bb8c70fd6d65acb9d1865f3f6c2834be8e9b98e2914",
-        "sha256_in_prefix": "98cd9fb764d8a359065e5f90e87495b6d7f89f0a122c9f2f6a4145521b465e28",
+        "sha256_in_prefix": "ed171ede60011651b69509674caac7336331ce3301e1e6bef6ecb3fc2212addf",
         "size_in_bytes": 6817
       },
       {
