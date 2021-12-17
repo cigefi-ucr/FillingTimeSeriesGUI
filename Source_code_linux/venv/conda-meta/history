@@ -1,4 +1,4 @@
-==> 2021-12-01 16:11:14 <==
+==> 2021-12-16 18:49:58 <==
 # cmd: /home/rolando/anaconda3/bin/conda create --prefix ./venv python==3.8.8 --no-default-packages
 # conda version: 4.10.3
 +defaults/linux-64::_libgcc_mutex-0.1-main

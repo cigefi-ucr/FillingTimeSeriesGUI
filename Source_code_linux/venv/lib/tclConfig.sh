@@ -44,11 +44,11 @@ TCL_LIBS='-ldl -lz  -lpthread -lm'
 
 # Top-level directory in which Tcl's platform-independent files are
 # installed.
-TCL_PREFIX='/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv'
+TCL_PREFIX='/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv'
 
 # Top-level directory in which Tcl's platform-specific files (e.g.
 # executables) are installed.
-TCL_EXEC_PREFIX='/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv'
+TCL_EXEC_PREFIX='/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv'
 
 # Flags to pass to cc when compiling the components of a shared library:
 TCL_SHLIB_CFLAGS='-fPIC'
@@ -57,7 +57,7 @@ TCL_SHLIB_CFLAGS='-fPIC'
 TCL_CFLAGS_WARNING='-Wall -Wpointer-arith'
 
 # Extra flags to pass to cc:
-TCL_EXTRA_CFLAGS='-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/include -fdebug-prefix-map=/tmp/build/80754af9/tk_1632504419923/work=/usr/local/src/conda/tk-8.6.11 -fdebug-prefix-map=/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv=/usr/local/src/conda-prefix -pipe -m64 -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/include'
+TCL_EXTRA_CFLAGS='-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/include -fdebug-prefix-map=/tmp/build/80754af9/tk_1632504419923/work=/usr/local/src/conda/tk-8.6.11 -fdebug-prefix-map=/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv=/usr/local/src/conda-prefix -pipe -m64 -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/include'
 
 # Base command to use for combining object files into a shared library:
 TCL_SHLIB_LD='${CC} ${CFLAGS} ${LDFLAGS} -shared'
@@ -79,7 +79,7 @@ TCL_DL_LIBS='-ldl'
 
 # Flags to pass to the compiler when linking object files into
 # an executable tclsh or tcltest binary.
-TCL_LD_FLAGS='-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib -Wl,-rpath-link,/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib -L/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib -Wl,--export-dynamic '
+TCL_LD_FLAGS='-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib -Wl,-rpath-link,/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib -L/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib -Wl,--export-dynamic '
 
 # Flags to pass to cc/ld, such as "-R /usr/local/tcl/lib", that tell the
 # run-time dynamic linker where to look for shared libraries such as
@@ -104,11 +104,11 @@ TCL_BUILD_LIB_SPEC='-L/tmp/build/80754af9/tk_1632504419923/work/tcl8.6.11/unix -
 
 # String to pass to linker to pick up the Tcl library from its
 # installed directory.
-TCL_LIB_SPEC='-L/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib -ltcl8.6'
+TCL_LIB_SPEC='-L/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib -ltcl8.6'
 
 # String to pass to the compiler so that an extension can
 # find installed Tcl headers.
-TCL_INCLUDE_SPEC='-I/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/include'
+TCL_INCLUDE_SPEC='-I/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/include'
 
 # Indicates whether a version numbers should be used in -l switches
 # ("ok" means it's safe to use switches like -ltcl7.5;  "nodots" means
@@ -140,7 +140,7 @@ TCL_SRC_DIR='/tmp/build/80754af9/tk_1632504419923/work/tcl8.6.11'
 # List of standard directories in which to look for packages during
 # "package require" commands.  Contains the "prefix" directory plus also
 # the "exec_prefix" directory, if it is different.
-TCL_PACKAGE_PATH='{/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib} '
+TCL_PACKAGE_PATH='{/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib} '
 
 # Tcl supports stub.
 TCL_SUPPORTS_STUBS=1
@@ -157,13 +157,13 @@ TCL_BUILD_STUB_LIB_SPEC='-L/tmp/build/80754af9/tk_1632504419923/work/tcl8.6.11/u
 
 # String to pass to linker to pick up the Tcl stub library from its
 # installed directory.
-TCL_STUB_LIB_SPEC='-L/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib -ltclstub8.6'
+TCL_STUB_LIB_SPEC='-L/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib -ltclstub8.6'
 
 # Path to the Tcl stub library in the build directory.
 TCL_BUILD_STUB_LIB_PATH='/tmp/build/80754af9/tk_1632504419923/work/tcl8.6.11/unix/libtclstub8.6.a'
 
 # Path to the Tcl stub library in the install directory.
-TCL_STUB_LIB_PATH='/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib/libtclstub8.6.a'
+TCL_STUB_LIB_PATH='/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib/libtclstub8.6.a'
 
 # Flag, 1: we built Tcl with threads enabled, 0 we didn't
 TCL_THREADS=1
