@@ -8,17 +8,17 @@ build_time_vars = {'ABIFLAGS': '',
  'BASECFLAGS': '-Wno-unused-result -Wsign-compare',
  'BASECPPFLAGS': '-IObjects -IInclude -IPython',
  'BASEMODLIBS': '',
- 'BINDIR': '/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/bin',
- 'BINLIBDEST': '/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib/python3.8',
+ 'BINDIR': '/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/bin',
+ 'BINLIBDEST': '/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib/python3.8',
  'BLDLIBRARY': 'libpython3.8.a',
  'BLDSHARED': 'i686-conda_cos6-linux-gnu-gcc -pthread -shared -Wl,-O2 '
               '-Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now '
-              '-Wl,-rpath,/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib '
-              '-L/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib '
+              '-Wl,-rpath,/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib '
+              '-L/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib '
               '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
               '-Wl,-z,now '
-              '-Wl,-rpath,/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib '
-              '-L/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib '
+              '-Wl,-rpath,/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib '
+              '-L/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib '
               '   '
               '',
  'BUILDEXE': '',
@@ -46,18 +46,18 @@ build_time_vars = {'ABIFLAGS': '',
                             '-Wno-unused-parameter '
                             '-Wno-missing-field-initializers',
  'CONFIGURE_CPPFLAGS': '-D_FORTIFY_SOURCE=2 -O2 '
-                       '-I/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/include',
+                       '-I/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/include',
  'CONFIGURE_LDFLAGS': '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
                       '-Wl,-z,now '
-                      '-Wl,-rpath,/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib '
-                      '-L/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib',
- 'CONFIG_ARGS': "'--prefix=/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv' "
+                      '-Wl,-rpath,/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib '
+                      '-L/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib',
+ 'CONFIG_ARGS': "'--prefix=/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv' "
                 "'--build=i686-conda_cos6-linux-gnu' "
                 "'--host=i686-conda_cos6-linux-gnu' '--enable-ipv6' "
                 "'--with-ensurepip=no' '--with-computed-gotos' "
                 "'--with-system-ffi' '--enable-loadable-sqlite-extensions' "
-                "'--with-tcltk-includes=-I/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/include' "
-                "'--with-tcltk-libs=-L/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib "
+                "'--with-tcltk-includes=-I/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/include' "
+                "'--with-tcltk-libs=-L/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib "
                 "-ltcl8.6 -ltk8.6' '--enable-optimizations' '--with-lto' "
                 "'--disable-shared' 'build_alias=i686-conda_cos6-linux-gnu' "
                 "'host_alias=i686-conda_cos6-linux-gnu' "
@@ -67,14 +67,14 @@ build_time_vars = {'ABIFLAGS': '',
                 '   '
                 "' 'LDFLAGS=-Wl,-O2 -Wl,--sort-common -Wl,--as-needed "
                 '-Wl,-z,relro -Wl,-z,now '
-                '-Wl,-rpath,/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib '
-                "-L/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib' "
+                '-Wl,-rpath,/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib '
+                "-L/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib' "
                 "'CPPFLAGS=-D_FORTIFY_SOURCE=2 -O2 "
-                "-I/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/include' "
-                "'CPP=/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/bin/i686-conda_cos6-linux-gnu-cpp' "
-                "'PKG_CONFIG_PATH=/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib/pkgconfig'",
- 'CONFINCLUDEDIR': '/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/include',
- 'CONFINCLUDEPY': '/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/include/python3.8',
+                "-I/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/include' "
+                "'CPP=/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/bin/i686-conda_cos6-linux-gnu-cpp' "
+                "'PKG_CONFIG_PATH=/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib/pkgconfig'",
+ 'CONFINCLUDEDIR': '/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/include',
+ 'CONFINCLUDEPY': '/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/include/python3.8',
  'COREPYTHONPATH': ':',
  'COVERAGE_INFO': '/home/nwani/concourse_worker/containers/00003bfv1os/tmp/build/80754af9/python_1510184282133/work/build-static/coverage.info',
  'COVERAGE_REPORT': '/home/nwani/concourse_worker/containers/00003bfv1os/tmp/build/80754af9/python_1510184282133/work/build-static/lcov-report',
@@ -83,17 +83,17 @@ build_time_vars = {'ABIFLAGS': '',
  'CPPFLAGS': '-IObjects -IInclude -IPython -I. '
              '-I/home/nwani/concourse_worker/containers/00003bfv1os/tmp/build/80754af9/python_1510184282133/work/Include '
              '-D_FORTIFY_SOURCE=2 -O2 '
-             '-I/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/include '
+             '-I/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/include '
              '-D_FORTIFY_SOURCE=2 -O2 '
-             '-I/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/include',
+             '-I/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/include',
  'CXX': 'i686-conda_cos6-linux-gnu-c++ -pthread',
- 'DESTDIRS': '/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv '
-             '/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib '
-             '/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib/python3.8 '
-             '/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib/python3.8/lib-dynload',
- 'DESTLIB': '/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib/python3.8',
+ 'DESTDIRS': '/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv '
+             '/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib '
+             '/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib/python3.8 '
+             '/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib/python3.8/lib-dynload',
+ 'DESTLIB': '/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib/python3.8',
  'DESTPATH': '',
- 'DESTSHARED': '/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib/python3.8/lib-dynload',
+ 'DESTSHARED': '/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib/python3.8/lib-dynload',
  'DFLAGS': '',
  'DIRMODE': 755,
  'DIST': 'README ChangeLog configure configure.ac acconfig.h pyconfig.h.in '
@@ -507,12 +507,12 @@ build_time_vars = {'ABIFLAGS': '',
  'HAVE_ZLIB_COPY': 1,
  'HAVE__GETPTY': 0,
  'HOST_GNU_TYPE': 'i686-conda_cos6-linux-gnu',
- 'INCLDIRSTOMAKE': '/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/include '
-                   '/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/include '
-                   '/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/include/python3.8 '
-                   '/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/include/python3.8',
- 'INCLUDEDIR': '/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/include',
- 'INCLUDEPY': '/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/include/python3.8',
+ 'INCLDIRSTOMAKE': '/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/include '
+                   '/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/include '
+                   '/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/include/python3.8 '
+                   '/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/include/python3.8',
+ 'INCLUDEDIR': '/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/include',
+ 'INCLUDEPY': '/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/include/python3.8',
  'INSTALL': '/usr/bin/install -c',
  'INSTALL_DATA': '/usr/bin/install -c -m 644',
  'INSTALL_PROGRAM': '/usr/bin/install -c',
@@ -523,34 +523,34 @@ build_time_vars = {'ABIFLAGS': '',
  'IO_OBJS': '\\',
  'LDCXXSHARED': 'i686-conda_cos6-linux-gnu-c++ -pthread -shared',
  'LDFLAGS': '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now '
-            '-Wl,-rpath,/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib '
-            '-L/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib '
+            '-Wl,-rpath,/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib '
+            '-L/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib '
             '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now '
-            '-Wl,-rpath,/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib '
-            '-L/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib '
+            '-Wl,-rpath,/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib '
+            '-L/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib '
             '   ',
  'LDLAST': '',
  'LDLIBRARY': 'libpython3.8.a',
  'LDLIBRARYDIR': '',
  'LDSHARED': 'i686-conda_cos6-linux-gnu-gcc -pthread -shared -Wl,-O2 '
              '-Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now '
-             '-Wl,-rpath,/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib '
-             '-L/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib '
+             '-Wl,-rpath,/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib '
+             '-L/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib '
              '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
              '-Wl,-z,now '
-             '-Wl,-rpath,/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib '
-             '-L/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib '
+             '-Wl,-rpath,/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib '
+             '-L/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib '
              '   ',
  'LDVERSION': '3.8',
  'LIBC': '',
- 'LIBDEST': '/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib/python3.8',
- 'LIBDIR': '/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib',
- 'LIBFFI_INCLUDEDIR': '/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/include',
+ 'LIBDEST': '/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib/python3.8',
+ 'LIBDIR': '/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib',
+ 'LIBFFI_INCLUDEDIR': '/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/include',
  'LIBM': '-lm',
  'LIBOBJDIR': 'Python/',
  'LIBOBJS': '',
- 'LIBPC': '/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib/pkgconfig',
- 'LIBPL': '/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib/python3.8/config-3.8-i386-linux-gnu',
+ 'LIBPC': '/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib/pkgconfig',
+ 'LIBPL': '/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib/python3.8/config-3.8-i386-linux-gnu',
  'LIBRARY': 'libpython3.8.a',
  'LIBRARY_OBJS': '\\',
  'LIBRARY_OBJS_OMIT_FROZEN': '\\',
@@ -568,13 +568,13 @@ build_time_vars = {'ABIFLAGS': '',
  'MACHDEP': 'linux',
  'MACHDEPPATH': ':',
  'MACHDEP_OBJS': '',
- 'MACHDESTLIB': '/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib/python3.8',
+ 'MACHDESTLIB': '/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib/python3.8',
  'MACOSX_DEPLOYMENT_TARGET': '',
  'MAINCC': 'i686-conda_cos6-linux-gnu-gcc -pthread',
  'MAJOR_IN_MKDEV': 0,
  'MAJOR_IN_SYSMACROS': 0,
  'MAKESETUP': '/home/nwani/concourse_worker/containers/00003bfv1os/tmp/build/80754af9/python_1510184282133/work/Modules/makesetup',
- 'MANDIR': '/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/share/man',
+ 'MANDIR': '/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/share/man',
  'MKDIR_P': '/bin/mkdir -p',
  'MODLIBS': '',
  'MODNAMES': '_thread posix errno pwd _sre _codecs _weakref _functools '
@@ -667,25 +667,25 @@ build_time_vars = {'ABIFLAGS': '',
                    '-IObjects -IInclude -IPython -I. '
                    '-I/home/nwani/concourse_worker/containers/00003bfv1os/tmp/build/80754af9/python_1510184282133/work/Include '
                    '-D_FORTIFY_SOURCE=2 -O2 '
-                   '-I/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/include '
+                   '-I/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/include '
                    '-D_FORTIFY_SOURCE=2 -O2 '
-                   '-I/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/include  '
+                   '-I/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/include  '
                    '-DPy_BUILD_CORE',
  'PY_CPPFLAGS': '-IObjects -IInclude -IPython -I. '
                 '-I/home/nwani/concourse_worker/containers/00003bfv1os/tmp/build/80754af9/python_1510184282133/work/Include '
                 '-D_FORTIFY_SOURCE=2 -O2 '
-                '-I/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/include '
+                '-I/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/include '
                 '-D_FORTIFY_SOURCE=2 -O2 '
-                '-I/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/include',
+                '-I/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/include',
  'PY_FORMAT_SIZE_T': '"z"',
  'PY_LDFLAGS': '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
                '-Wl,-z,now '
-               '-Wl,-rpath,/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib '
-               '-L/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib '
+               '-Wl,-rpath,/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib '
+               '-L/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib '
                '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
                '-Wl,-z,now '
-               '-Wl,-rpath,/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib '
-               '-L/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib '
+               '-Wl,-rpath,/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib '
+               '-L/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib '
                '   '
                '',
  'Py_DEBUG': 0,
@@ -697,7 +697,7 @@ build_time_vars = {'ABIFLAGS': '',
  'RESSRCDIR': 'Mac/Resources/framework',
  'RETSIGTYPE': 'void',
  'RUNSHARED': '',
- 'SCRIPTDIR': '/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib',
+ 'SCRIPTDIR': '/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib',
  'SETPGRP_HAVE_ARG': 0,
  'SGI_ABI': '',
  'SHELL': '/bin/sh',
@@ -733,8 +733,8 @@ build_time_vars = {'ABIFLAGS': '',
  'SYSLIBS': '-lm',
  'SYS_SELECT_WITH_SYS_TIME': 1,
  'TANH_PRESERVES_ZERO_SIGN': 1,
- 'TCLTK_INCLUDES': '-I/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/include',
- 'TCLTK_LIBS': '-L/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib '
+ 'TCLTK_INCLUDES': '-I/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/include',
+ 'TCLTK_LIBS': '-L/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib '
                '-ltcl8.6 -ltk8.6',
  'TESTOPTS': '',
  'TESTPATH': '',
@@ -767,7 +767,7 @@ build_time_vars = {'ABIFLAGS': '',
  'XMLLIBSUBDIRS': 'xml xml/dom xml/etree xml/parsers xml/sax',
  'abs_builddir': '/home/nwani/concourse_worker/containers/00003bfv1os/tmp/build/80754af9/python_1510184282133/work/build-static',
  'abs_srcdir': '/home/nwani/concourse_worker/containers/00003bfv1os/tmp/build/80754af9/python_1510184282133/work',
- 'datarootdir': '/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/share',
- 'exec_prefix': '/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv',
- 'prefix': '/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv',
+ 'datarootdir': '/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/share',
+ 'exec_prefix': '/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv',
+ 'prefix': '/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv',
  'srcdir': '/home/nwani/concourse_worker/containers/00003bfv1os/tmp/build/80754af9/python_1510184282133/work'}

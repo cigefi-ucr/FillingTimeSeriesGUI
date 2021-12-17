@@ -1,6 +1,6 @@
 # Package Information for pkg-config
 
-prefix=/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv
+prefix=/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

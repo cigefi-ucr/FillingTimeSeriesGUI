@@ -5,10 +5,10 @@
 # You can do whatever you want with this file.
 #
 
-prefix=/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv
-exec_prefix=/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv
-libdir=/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib
-includedir=/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/include
+prefix=/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv
+exec_prefix=/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv
+libdir=/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib
+includedir=/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/include
 
 Name: liblzma
 Description: General purpose data compression library

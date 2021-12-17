@@ -26,8 +26,8 @@ ITCL_BUILD_LIB_SPEC='-L/tmp/build/80754af9/tk_1632504419923/work/tcl8.6.11/unix/
 
 # String to pass to linker to pick up the Itcl library from its
 # installed directory.
-itcl_LIB_SPEC='-L/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib/itcl4.2.1 -litcl4.2.1'
-ITCL_LIB_SPEC='-L/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib/itcl4.2.1 -litcl4.2.1'
+itcl_LIB_SPEC='-L/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib/itcl4.2.1 -litcl4.2.1'
+ITCL_LIB_SPEC='-L/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib/itcl4.2.1 -litcl4.2.1'
 
 # The name of the Itcl stub library (a .a file):
 itcl_STUB_LIB_FILE=libitclstub4.2.1.a
@@ -40,8 +40,8 @@ ITCL_BUILD_STUB_LIB_SPEC='-L/tmp/build/80754af9/tk_1632504419923/work/tcl8.6.11/
 
 # String to pass to linker to pick up the Itcl stub library from its
 # installed directory.
-itcl_STUB_LIB_SPEC='-L/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib/itcl4.2.1 -litclstub4.2.1'
-ITCL_STUB_LIB_SPEC='-L/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib/itcl4.2.1 -litclstub4.2.1'
+itcl_STUB_LIB_SPEC='-L/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib/itcl4.2.1 -litclstub4.2.1'
+ITCL_STUB_LIB_SPEC='-L/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib/itcl4.2.1 -litclstub4.2.1'
 
 # String to pass to linker to pick up the Itcl stub library from its
 # build directory.
@@ -50,8 +50,8 @@ ITCL_BUILD_STUB_LIB_PATH='/tmp/build/80754af9/tk_1632504419923/work/tcl8.6.11/un
 
 # String to pass to linker to pick up the Itcl stub library from its
 # installed directory.
-itcl_STUB_LIB_PATH='/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib/itcl4.2.1/libitclstub4.2.1.a'
-ITCL_STUB_LIB_PATH='/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib/itcl4.2.1/libitclstub4.2.1.a'
+itcl_STUB_LIB_PATH='/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib/itcl4.2.1/libitclstub4.2.1.a'
+ITCL_STUB_LIB_PATH='/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib/itcl4.2.1/libitclstub4.2.1.a'
 
 # Location of the top-level source directories from which [incr Tcl]
 # was built.  This is the directory that contains generic, unix, etc.

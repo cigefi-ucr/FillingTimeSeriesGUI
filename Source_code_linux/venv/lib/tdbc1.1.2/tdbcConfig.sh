@@ -24,8 +24,8 @@ TDBC_BUILD_LIB_SPEC="-L/tmp/build/80754af9/tk_1632504419923/work/tcl8.6.11/unix/
 
 # String to pass to the linker to pick up the TDBC library from its installed
 # dir.
-tdbc_LIB_SPEC="-L/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib/tdbc1.1.2 -ltdbc1.1.2"
-TDBC_LIB_SPEC="-L/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib/tdbc1.1.2 -ltdbc1.1.2"
+tdbc_LIB_SPEC="-L/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib/tdbc1.1.2 -ltdbc1.1.2"
+TDBC_LIB_SPEC="-L/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib/tdbc1.1.2 -ltdbc1.1.2"
 
 # Name of the TBDC stub library
 tdbc_STUB_LIB_FILE="libtdbcstub1.1.2.a"
@@ -38,16 +38,16 @@ TDBC_BUILD_STUB_LIB_SPEC="-L/tmp/build/80754af9/tk_1632504419923/work/tcl8.6.11/
 
 # String to pass to the linker to pick up the TDBC stub library from its
 # installed directory
-tdbc_STUB_LIB_SPEC="-L/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib/tdbc1.1.2 -ltdbcstub1.1.2"
-TDBC_STUB_LIB_SPEC="-L/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib/tdbc1.1.2 -ltdbcstub1.1.2"
+tdbc_STUB_LIB_SPEC="-L/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib/tdbc1.1.2 -ltdbcstub1.1.2"
+TDBC_STUB_LIB_SPEC="-L/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib/tdbc1.1.2 -ltdbcstub1.1.2"
 
 # Path name of the TDBC stub library in its build directory
 tdbc_BUILD_STUB_LIB_PATH="/tmp/build/80754af9/tk_1632504419923/work/tcl8.6.11/unix/pkgs/tdbc1.1.2/libtdbcstub1.1.2.a"
 TDBC_BUILD_STUB_LIB_PATH="/tmp/build/80754af9/tk_1632504419923/work/tcl8.6.11/unix/pkgs/tdbc1.1.2/libtdbcstub1.1.2.a"
 
 # Path name of the TDBC stub library in its installed directory
-tdbc_STUB_LIB_PATH="/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib/tdbc1.1.2/libtdbcstub1.1.2.a"
-TDBC_STUB_LIB_PATH="/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib/tdbc1.1.2/libtdbcstub1.1.2.a"
+tdbc_STUB_LIB_PATH="/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib/tdbc1.1.2/libtdbcstub1.1.2.a"
+TDBC_STUB_LIB_PATH="/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib/tdbc1.1.2/libtdbcstub1.1.2.a"
 
 # Location of the top-level source directories from which TDBC was built.
 # This is the directory that contains doc/, generic/ and so on.  If TDBC
@@ -59,8 +59,8 @@ TDBC_SRC_DIR="/tmp/build/80754af9/tk_1632504419923/work/tcl8.6.11/pkgs/tdbc1.1.2
 
 # String to pass to the compiler so that an extension can find installed TDBC
 # headers
-tdbc_INCLUDE_SPEC="-I/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/include"
-TDBC_INCLUDE_SPEC="-I/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/include"
+tdbc_INCLUDE_SPEC="-I/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/include"
+TDBC_INCLUDE_SPEC="-I/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/include"
 
 # String to pass to the compiler so that an extension can find TDBC headers
 # in the source directory
@@ -68,8 +68,8 @@ tdbc_BUILD_INCLUDE_SPEC="-I/tmp/build/80754af9/tk_1632504419923/work/tcl8.6.11/p
 TDBC_BUILD_INCLUDE_SPEC="-I/tmp/build/80754af9/tk_1632504419923/work/tcl8.6.11/pkgs/tdbc1.1.2/generic"
 
 # Path name where .tcl files in the tdbc package appear at run time.
-tdbc_LIBRARY_PATH="/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib/tdbc1.1.2"
-TDBC_LIBRARY_PATH="/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib/tdbc1.1.2"
+tdbc_LIBRARY_PATH="/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib/tdbc1.1.2"
+TDBC_LIBRARY_PATH="/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib/tdbc1.1.2"
 
 # Path name where .tcl files in the tdbc package appear at build time.
 tdbc_BUILD_LIBRARY_PATH="/tmp/build/80754af9/tk_1632504419923/work/tcl8.6.11/pkgs/tdbc1.1.2/library"

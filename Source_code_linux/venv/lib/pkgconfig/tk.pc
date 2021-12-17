@@ -1,8 +1,8 @@
 # tk pkg-config source file
 
-prefix=/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv
-exec_prefix=/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv
-libdir=/home/rolando/Documents/Workspace/FTS-Filling_Time_Series_v_0_9_2/Source_code_linux/venv/lib
+prefix=/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv
+exec_prefix=/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv
+libdir=/home/rolando/Documents/Workspace/CIGEFI/Source_code_linux/venv/lib
 includedir=${prefix}/include
 
 Name: The Tk Toolkit
